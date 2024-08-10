@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000';
+const url =  'https://practicedeployreact.onrender.com';
 
 // Existing receipt-related API calls
 export const fetchReceipts = () => axios.get(`${url}/receipts`);
